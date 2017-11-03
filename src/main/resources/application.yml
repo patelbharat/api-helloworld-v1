@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  contextPath: "/api/v1/hello"
+
+####
+spring.main.sources: com.example.api.hello.v1.Application
+spring.application.name: api-helloworld-v1
+
+version: v1
+debug.validation.detailed: false
